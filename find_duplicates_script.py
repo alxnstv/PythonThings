@@ -8,7 +8,7 @@ block_size = 65536
 path = "C:\\Users\\anastev\\Downloads"
 
 def calculate_hash(path):
-	file = open(path, 'rb') #rb = read+write mode/binaryss
+	file = open(path, 'rb') #rb = read+write mode/binary
 	md5_hasher = hashlib.md5()
 	binary_data = file.read(block_size)
 	
